@@ -20,13 +20,13 @@ async function precache() {
   const cache = await caches.open(VERSION);
 
   return cache.addAll([
-    '/',
-    '/index.html',
-    '/assets/MediaPlayer.js',
-    '/assets/plugins/AutoPlay.js',
-    '/assets/plugins/AutoPause.js',
-    '/assets/index.css',
-    '/assets/BigBuckBunny.mp4'
+    // '/',
+    // '/index.html',
+    // '/assets/MediaPlayer.js',
+    // '/assets/plugins/AutoPlay.js',
+    // '/assets/plugins/AutoPause.js',
+    // '/assets/index.css',
+    // '/assets/BigBuckBunny.mp4'
   ]);
 }
 
